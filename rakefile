@@ -1,0 +1,8 @@
+task :default do
+  `rm *.db`
+  `sqlite3 hw05.db < hw05.sql`
+end
+
+# task :rmdb do
+#   `rm *.db`
+# end
